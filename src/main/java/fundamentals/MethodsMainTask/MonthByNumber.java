@@ -1,47 +1,9 @@
-package fundamentals;
+package fundamentals.MethodsMainTask;
 
 import java.util.Scanner;
 
-public class MethodsMainTask {
-
-    public static void task1() {
-        System.out.println("Input username:");
-        Scanner scanner = new Scanner(System.in);
-        String sc = scanner.nextLine();
-        System.out.println("Hello, " + sc);
-    }
-
-    public static void task2(String[] args) {
-        for (int i = args.length - 1; i >= 0; i--) {
-            System.out.println(args[i]);
-        }
-    }
-
-    public static void task3() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input amount of numbers");
-        int amount = scanner.nextInt();
-        for (int i = 0; i < amount; i++) {
-            int randomNumber = (int) (Math.random() * 100);
-            System.out.println(randomNumber);
-            System.out.print(randomNumber);
-
-        }
-    }
-
-    public static void task4() {
-        System.out.println();
-        System.out.println("Imput the first number");
-        Scanner sc1 = new Scanner(System.in);
-        int num1 = sc1.nextInt();
-        System.out.println("Imput the second number");
-        Scanner sc2 = new Scanner(System.in);
-        int num2 = sc2.nextInt();
-        System.out.println("Sum = " + (num1 + num2));
-        System.out.println("Product of numbers = " + num1 * num2);
-    }
-
-    public static void task5() {
+public class MonthByNumber {
+    public static void monthByNumbers() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input the number of month");
         int month = scanner.nextInt();

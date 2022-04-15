@@ -1,0 +1,16 @@
+package Stage2.exceptions;
+
+public enum Subjects {
+    ECONOMICS,
+    MANAGEMENT,
+    FOREIGN_LANGUAGE,
+    MATH,
+    HISTORY,
+    ACCOUNTING,
+    PHYSICAL_EDUCATION,
+    INFORMATIONAL_TECHNOLOGIES,
+    LOGISTICS,
+    STATISTICS,
+    LAW,
+    PHILOSOPHY
+}

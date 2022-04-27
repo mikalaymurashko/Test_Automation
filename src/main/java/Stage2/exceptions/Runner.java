@@ -44,18 +44,18 @@ public class Runner {
             Arrays.asList(economic, commercial));
 
     public static void main(String[] args) {
-        System.out.println("Gpa of students: " + STUDENTS_Z_11.get(0).getStudentGPA());
-        System.out.println(bteu.getFacultyGPA("Economics and Management", "Z-11",
-                Subjects.ECONOMICS));
-        System.out.println(bteu.subjectGPA(Subjects.ECONOMICS));
-
-        new University("BSUOT", new ArrayList<>());
-        new Faculty("Marketing", new ArrayList<>());
-        new Student(20, "Anastasia", "Ivanova", Map.of());
-        new Student(30, "Oleg", "Petrov", Map.of(Subjects.HISTORY, -1));
-        new Group("H-15", List.of());
-        new Group("V-22", STUDENTS_V_22).setStudentList(List.of());
-        new Faculty("Transport", List.of());
-        new Faculty("Architecture", List.of(Z_11, M_12)).setGroupList(List.of());
+//        System.out.println("Gpa of students: " + STUDENTS_Z_11.get(0).getStudentGPA());
+//       System.out.println(bteu.getFacultyGPA("Economics and Management", "Z-11",
+//              Subjects.ECONOMICS));
+//        System.out.println(bteu.subjectGPA(Subjects.ECONOMICS));
+//
+//        new University("BSUOT", new ArrayList<>());
+//        new Faculty("Marketing", new ArrayList<>());
+//        new Student(20, "Anastasia", "Ivanova", Map.of());
+//        new Student(30, "Oleg", "Petrov", Map.of(Subjects.HISTORY, -1));
+//        new Group("H-15", List.of());
+//        new Group("V-22", STUDENTS_V_22).setStudentList(List.of());
+//        new Faculty("Transport", List.of());
+//        new Faculty("Architecture", List.of(Z_11, M_12)).setGroupList(List.of());
     }
 }

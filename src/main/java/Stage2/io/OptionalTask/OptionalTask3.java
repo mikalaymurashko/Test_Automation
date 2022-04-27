@@ -5,10 +5,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class OptionalTask3 {
+
     public static void reverseLettersOrderInStrings() {
 //        3.     Прочитать текст Java-программы и записать в другой файл в обратном порядке символы каждой строки.
-        File optional3 = new File("E:/Test_Automation/src/main/java/Stage2/I_O/optionalTask/FilesForTask/task3.txt");
-        File fileJava = new File("E:/Test_Automation/src/main/java/Stage2/I_O/optionalTask/ClassForOptionalTask2.java");
+        File optional3 = new File("E:/Test_Automation/src/main/java/Stage2/io/optionalTask/FilesForTask/task3.txt");
+        File fileJava = new File("E:/Test_Automation/src/main/java/Stage2/io/optionalTask/ClassForOptionalTask2.java");
         ArrayList<String> listJava = new ArrayList<>();
         try (FileReader fileReader = new FileReader(fileJava)) {
             Scanner scanner = new Scanner(fileReader);
@@ -27,6 +28,5 @@ public class OptionalTask3 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

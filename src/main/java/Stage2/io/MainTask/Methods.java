@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Methods {
 
-    public void TreeView(String path) {
+    public void treeView(String path) {
         File dir = new File(path);
         ArrayList<String> treeOfFiles = new ArrayList<>();
         if (dir.isDirectory()) {
@@ -26,7 +26,7 @@ public class Methods {
         }
         try {
             try (PrintWriter inputFileMainTask = new PrintWriter(new FileOutputStream
-                    ("E:/Test_Automation/src/main/java/Stage2/I_O/MainTask/MainTask.txt"))) {
+                    ("E:/Test_Automation/src/main/java/Stage2/io/MainTask/MainTask.txt"))) {
                 for (String string : treeOfFiles) {
                     inputFileMainTask.println(string);
                 }
